@@ -1,5 +1,5 @@
 import "./App.css";
-import { ExecutionFlow } from "./concepts";
+import { HOCComponent } from "./concepts";
 // import { ControlledComp, PureComponent, UnControlledComp } from "./concepts";
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
             {/* <PureComponent /> */}
             {/* <UnControlledComp /> */}
             {/* <ControlledComp /> */}
-            <ExecutionFlow></ExecutionFlow>
+            {/* <ExecutionFlow></ExecutionFlow> */}
+            <HOCComponent></HOCComponent>
         </div>
     );
 }
