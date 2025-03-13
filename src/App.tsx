@@ -1,5 +1,5 @@
 import "./App.css";
-import { HOCComponent } from "./concepts";
+import { RenderProps } from "./concepts";
 // import { ControlledComp, PureComponent, UnControlledComp } from "./concepts";
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
             {/* <UnControlledComp /> */}
             {/* <ControlledComp /> */}
             {/* <ExecutionFlow></ExecutionFlow> */}
-            <HOCComponent></HOCComponent>
+            {/* <HOCComponent></HOCComponent> */}
+            <RenderProps></RenderProps>
         </div>
     );
 }

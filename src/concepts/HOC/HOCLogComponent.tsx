@@ -6,7 +6,16 @@ interface HOCLogComponentProps {
 
 export const HOCLogComponent = ({ children }: HOCLogComponentProps) => {
     useEffect(() => {
-        console.log("Logged children:", children?.type?.name);
+        console.log(
+            "Logged children:",
+            (
+                children as {
+                    type: {
+                        name: string;
+                    };
+                }
+            )?.type?.name
+        );
     }, [children]); // Logs when children change
 
     return <>{children}</>;
