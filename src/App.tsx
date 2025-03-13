@@ -1,5 +1,5 @@
 import "./App.css";
-import { AutomaticBatching } from "./concepts";
+import { Portal } from "./concepts";
 
 function App() {
     return (
@@ -9,7 +9,7 @@ function App() {
             {/* <ControlledComp /> */}
             {/* <ExecutionFlow></ExecutionFlow> */}
             {/* <HOCComponent></HOCComponent> */}
-            <AutomaticBatching></AutomaticBatching>
+            <Portal></Portal>
         </div>
     );
 }
