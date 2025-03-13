@@ -1,6 +1,5 @@
 import "./App.css";
-import { RenderProps } from "./concepts";
-// import { ControlledComp, PureComponent, UnControlledComp } from "./concepts";
+import { AutomaticBatching } from "./concepts";
 
 function App() {
     return (
@@ -10,7 +9,7 @@ function App() {
             {/* <ControlledComp /> */}
             {/* <ExecutionFlow></ExecutionFlow> */}
             {/* <HOCComponent></HOCComponent> */}
-            <RenderProps></RenderProps>
+            <AutomaticBatching></AutomaticBatching>
         </div>
     );
 }
